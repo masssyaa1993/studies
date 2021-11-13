@@ -1,0 +1,168 @@
+@media screen and (max-width: 320px) {
+
+    *, body, html {
+        max-width: 320px;
+    }  
+    .burger {
+        display: block;
+        margin-left: -55px;
+        margin-right: 55px;
+    }
+    .fovorite {
+        display: block;
+        margin-right: 15px;
+    }
+    .header-wrap {
+        display: none;
+    }
+    .top-menu ul {
+        display: none; 
+    }
+    .header-action-btn {
+        display: none;
+    }
+    .logo {
+        padding-top: 5px;
+    }
+   
+    .cover_3 {
+        height: 586px;
+        align-content: flex-end;
+    }
+    .imag {
+        width: 290px;
+        height: 198px;
+    }
+    .cover_3-item {
+        width: 290px;
+        height: 280px;
+    }
+    .cover_3-item p:nth-child(2) {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -0.4px;
+    }
+    
+
+    /* contents_1*/
+
+    .contents_1 {
+    top: 646px;
+}
+
+.contents_1-items {
+    width: 290px;
+    height: 288px;
+    text-align: center;
+}
+
+.contents_1-items p:nth-child(2) {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+}
+    /* contents_7*/
+
+
+.contents_7 {
+    height: 758px;
+    top: 1014px;
+    padding: 0 15px;
+
+}
+
+.contents_7 > img {
+    width: 100%;
+
+}
+.contents-item {
+    height: 452px;
+}
+
+.feature {
+    width: 130px;
+    height: 160px;
+}
+
+
+.contents_8{
+    height: 600px;
+    top: 1772px;
+    align-content: flex-end;
+    padding: 40px 15px;
+}
+
+.contents_8 > img {
+    width: 100%;
+    padding-bottom: 28px;
+}
+.logos {
+    width: 290px;
+    height: 26px;
+    padding-top: 28px;
+}
+.logos a > img{
+    width: 85%;
+}
+
+.contents_6 {
+    padding: 40px 15px;
+    height: 698px;
+    top: 2372px;
+}
+.map {
+    top: 3070px;
+    height: 198px;
+}
+
+.content_9 {
+    padding: 40px 15px;
+    width: 100%;
+    height: 420px;
+    top: 3268px;
+}
+hr {
+    display: none;
+}
+
+.content_9 > div:nth-child(3) {
+    padding-top: 28px;
+}
+
+.footer-top {
+    height: 556px;
+    top: 3688px;
+    padding: 40px 15px;
+    justify-content: flex-start;
+}
+
+.left p {
+    padding: 20px 0 28px 0;
+}
+
+.menu {
+    margin-top: 40px;
+}
+.social {
+    margin-top: 33px;
+
+}
+
+.copyright {
+    height: 148px;
+    top: 4244px;
+    padding: 28px 15px;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.copyright div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.copyright div a {
+    padding-top: 16px;
+}
+
+}
