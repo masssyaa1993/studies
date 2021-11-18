@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>ДЗ 20. Практика верстка макета используя Bootstrap & SASS</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-1 logo"><a href="#"><span>S</span>mart</a></div>
+                  <div class="col-1"><a href=""><img src="./image/burger_menu.png" alt=""></a></div>
+                </div>
+              </div>
+
+            <div class="text-center-h1">
+              <h1><span>Smart</span> Agency Landign Page</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi ptates doloremque rerum aspernatur dolorum at!</p>
+            </div>
+
+            <form>
+              <div class="form-text-center">
+                <h1><span>Send </span>A Message</h1>
+              </div>
+              
+      
+              <div class="mb-3">
+                <label for="form-control">Your Name</label>
+
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="form-control">Your Email</label>
+
+                <input type="email" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="form-control">Your Message</label>
+                <input type="text" class="form-control coment" id="exampleInputPassword1"> 
+              </div>
+
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+        </div>
+
+
+        <div class="work_procces">
+          <div class="text-center-h1">
+            <h1><span>Working</span> Process</h1>
+            <p>Lorem ipsum dolor sit amet consectet ur adipiscing elit  Vestib</p>
+          </div>
+
+          <div class="card-group">
+            <div class="card bg_1" >
+              <img src="./image/magn.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Koc Koi Tomi</h5>
+                <p class="card-text">Lorem ipsum is dummy lorem very dumy</p>
+                <button type="submit" class="btn btn-primary">Know More</button>
+              </div>
+            </div>
+
+            <div class="card bg_2">
+              <img src="./image/bag.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Koimona Set</h5>
+                <p class="card-text">Lorem ipsum is dummy lorem very dumy</p>
+                <button type="submit" class="btn btn-primary">Know More</button>
+              </div>
+
+            </div>
+            <div class="card bg_3">
+              <img src="./image/sett.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Setting Koire</h5>
+                <p class="card-text">Lorem ipsum is dummy lorem very dumy</p>
+                <button type="submit" class="btn btn-primary">Know More</button>
+              </div>
+            </div>
+
+            <div class="card bg_4">
+              <img src="./image/phot.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ko Image Lara</h5>
+                <p class="card-text">Lorem ipsum is dummy lorem very dumy</p>
+                <button type="submit" class="btn btn-primary">Know More</button>
+              </div>
+            </div>
+          </div>          
+        </div>
+
+
+        <div class="featured_work">
+
+          <div class="text-center-h1">
+            <h1><span>Featured</span> Works</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores</p>
+          </div>
+
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                        <div class="col">
+                          <div class="card"></div>
+                          </div>
+                  </div>
+
+        </div>
+    
+        <div class="services">
+
+          <div class="text-center-h1">
+            <h1><span>Services</span> We Provide</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores</p>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col col-img">
+              <div class="card">
+                <ul>
+                  <li><img src="./image/ls6b.png" alt=""></li>
+                  <li><img src="./image/lsSett.png" alt=""></li>
+                  <li><img src="./image/lsSearh.png" alt=""></li>
+                  <li><img src="./image/ls6b.png" alt=""></li>            
+                </ul>
+              </div>
+              </div>
+
+            <div class="col col-text">
+              <div class="card">
+                <h3>Modern App Design</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducim</p>
+                <p>vitae eveniet quam rem unde facilis.</p>
+
+                <button type="submit" class="btn btn-primary">Know More</button>
+
+              </div>
+              </div>
+            <div class="col col-img-watch">
+              <div class="card"><img src="./image/apple-watch.png" alt=""></div>
+              </div>
+
+          </div>
+        </div>
+
+
+        <div class="team">
+
+          <div class="text-center-h1">
+            <h1><span>Team</span> Chinen & Skills</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga provident Libero.</p>
+          </div>
+
+          <div class="card-group">
+            <div class="card" >
+              <div class="card-body">
+                <button type="submit" class="btn-ux">Bedi Manos
+                  <label for="btn-ux"">UI/UX Parena</label>
+                </button>
+              </div>
+            </div>
+
+            <div class="card bg_ux">
+
+              <div class="graf">
+                    <p>UI/UX  Design
+                    <p class="bg-line"><span class="placeholder" style="width: 75%;"></span></p>
+                    </p>
+                    <p>English
+                    <p class="bg-line"><span class="placeholder" style="width: 55%;"></span></p>
+                    </p>
+                    <p>Communication
+                    <p class="bg-line"><span class="placeholder" style="width: 65%;"></span></p>
+                    </p>
+
+                  <div class="ui-des">
+                    <p>Al Rayhan</p>
+                    <p>UI/UX Designer</p>
+
+                    <ul>
+                      <li><a href="#"><img src="./image/twit.png" alt=""></a></li>
+                      <li><a href="#"><img src="./image/fb.png" alt=""></a></li>
+                      <li><a href="#"><img src="./image/twit.png" alt=""></a></li>
+                    </ul>
+
+                  </div>
+              
+              </div>
+            </div>
+
+                    <div class="card">
+                      <div class="card-body">
+                        <button type="submit" class="btn-ux">Ali Sayed
+                          <label for="btn-ux"">UI/UX Designer</label>
+                        </button>
+                      </div>
+                    </div>
+        </div>
+
+        </div>
+
+
+        <div class="client_said">
+          <div class="text-center-h1">
+            <h1><span>Clients</span> Said</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga provident Libero</p>
+          </div>
+
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-caption d-none d-md-block ">
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="review">
+
+                        <div class="circle-photo"><img src="..." alt=""></div>
+
+                        <p>This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <img src="./image/star.png" alt="">
+                        <p>Kita Say, HK Director</p>
+                      </div>
+                      </div>
+
+                    <div class="col">
+                      <div class="review">
+                        <div class="circle-photo"><img src="..." alt=""></div>
+
+                        <p>This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <img src="./image/star.png" alt="">
+                        <p>Kita Say, HK Director</p>
+
+                      </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="review">
+
+                        <div class="circle-photo"><img src="..." alt=""></div>
+
+                        <p>This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <img src="./image/star.png" alt="">
+                        <p>Kita Say, HK Director</p>
+                      </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="review">
+  
+                          <div class="circle-photo"><img src="..." alt=""></div>
+  
+                          <p>This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                          <img src="./image/star.png" alt="">
+                          <p>Kita Say, HK Director</p>
+                        </div>
+                        </div>
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="review">
+
+                        <div class="circle-photo"><img src="..." alt=""></div>
+
+                        <p>This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <img src="./image/star.png" alt="">
+                        <p>Kita Say, HK Director</p>
+                      </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="review">
+  
+                          <div class="circle-photo"><img src="..." alt=""></div>
+  
+                          <p>This was my first time renting from car rental. The service rep help me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                          <img src="./image/star.png" alt="">
+                          <p>Kita Say, HK Director</p>
+                        </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="logo">
+          <div class="wrap">
+            <a href="#"><img src="./image/linkedIn.png" alt=""></a>
+            <a href="#"><img src="./image/dribl.png" alt=""></a>
+            <a href="#"><img src="./image/envato.png" alt=""></a>
+            <a href="#"><img src="./image/linkedIn.png" alt=""></a>
+            <a href="#"><img src="./image/dribl.png" alt=""></a>
+            <a href="#"><img src="./image/envato.png" alt=""></a>
+          </div>
+        </div>
+
+
+        <div class="footer">
+          <button type="submit"">Contact Us</button>
+
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#">© 2015 - 2016 Deviserweb Ltd.</a></li>
+            </ul>
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>
