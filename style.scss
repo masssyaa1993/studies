@@ -1,0 +1,317 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.conteiner {
+    width: 90%;
+    margin: 0 auto;
+
+        .fx-c {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .text {
+            padding-top: calc(95 / 1440 * 100%);
+            text-align: center;
+            h1 {
+                font-size: calc(38 / 16 * 100%);
+                font-family: Montserrat;
+                color: rgba(0, 0, 0, 0.9);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 0.74;
+            }
+
+            p {
+                padding-top: calc(17 / 412 * 100%);
+                font-size: calc(17 / 16 * 100%);
+                font-family: Merriweather;
+                color: rgba(0, 0, 0, 0.6);
+                text-transform: uppercase;
+                line-height: 1.65;
+            }
+        }
+        .banner {
+            display: grid;
+            justify-content: center;
+            gap: 1.3%;
+            row-gap: 1.3%;
+            margin: calc(125 / 1440 * 100%)  0;
+        }
+        .mask {
+            background: rgba(0, 0, 0, 0.6);
+
+            .item-text {
+                h3 {
+                    font-size: 20px;
+                    font-family: Merriweather;
+                    color: rgba(255, 255, 255, 0.9);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                p {
+                    padding: 30px 0 30px 0;
+                    font-size: 16px;
+                    font-family: Raleway;
+                    color: rgba(255, 255, 255, 0.9);
+                    line-height: 1.6;
+                }
+                a {
+                    font-size: 18px;
+                    font-family: Raleway;
+                    color: rgba(249, 251, 251, 0.9);
+                    text-transform: uppercase;
+                    line-height: 4.7;  
+                    
+                        &::after {
+                            content: url(./image/our_services/arrow_right.png);
+                            padding-left: 20px;
+                        }
+                }
+            }
+        }
+        .hover {
+            &:hover {
+                opacity: 0.7;            
+                .coment {
+                display: block;
+                }
+            }
+        }
+        .coment {
+            width: 90%;
+            height: 55%;
+            background-color: #6df6eb;
+            text-align: center;
+            display: none;
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            padding: 10%;
+
+                h4 {
+                        font-size: 20px;
+                        font-family: Merriweather;
+                        color: rgba(39, 39, 39, 0.9);
+                        font-weight: bold;
+                        line-height: 1.2;
+                            @media screen and (max-width: 1075px) {
+                                font-size: 15px;
+                            }
+                            @media screen and (max-width: 895px) {
+                                font-size: 10px;
+                            }
+
+
+
+                        span {
+                            font-size: 15px;
+                            color: #767070;
+                            font-style: italic;
+                                @media screen and (max-width: 1075px) {
+                                    font-size: 10px;
+                                }
+                                @media screen and (max-width: 895px) {
+                                    font-size: 8px;
+                                }
+
+                            
+                        }
+                }
+
+                p {
+                    font-size: 16px;
+                    font-family: Raleway;
+                    color: rgba(0, 0, 0, 0.8);
+                    line-height: 1.5;
+                    text-align: left;
+                    font-style: normal;
+                    padding: 10% 0 15% 0;
+                        @media screen and (max-width: 1075px) {
+                            font-size: 14px;
+                        }
+                        @media screen and (max-width: 895px) {
+                            font-size: 12px;
+                            padding: 8% 0 7% 0;
+                        }
+                        @media screen and (max-width: 760px) {
+                            font-size: 10px;
+                        }
+                        @media screen and (max-width: 630px) {
+                            font-size: 8px;
+                        }
+                }
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                        @media screen and (max-width: 760px) {
+                            width: 50%;
+                        }
+
+                        li {
+                            padding-right: 10%;
+                            @media screen and (max-width: 760px) {
+                                padding-right: 15%;
+                            }
+                        }
+                }
+        }
+
+            .featured_banner {
+
+                grid-template-columns: repeat(3, 32.45%);
+                    img {
+                        max-width: 100%;
+                    }                   
+                        @media screen and (max-width: 375px) {
+                            grid-template-columns: repeat(2, 50%);
+                        }
+                
+            }
+                
+            .services {
+                width: 100%;
+                margin: 0 auto;
+                background-color: #f9fbfb;
+                
+                        .col {
+                            grid-column: 1/3;
+
+                                @media screen and (max-width: 1170px) {
+                                    grid-column: 1/4;
+                                }
+
+                            .services_text {
+                                padding: 5.3% 12.3% 6.1% 5.7%;
+
+                                    h3 {
+                                            font-size: 125%;
+                                            font-family: Merriweather;
+                                            color: rgba(0, 0, 0, 0.8);
+                                            font-weight: bold;
+                                            text-transform: uppercase;
+                                            line-height: 1.45;
+                                    }
+                                    p {
+                                            padding: 3.5% 0 5.2% 0;
+                                            font-size: 100%;
+                                            font-family: Raleway;
+                                            color: rgba(116, 37, 37, 0.8);
+                                            line-height: 1.75;        
+                                    }
+                            }
+                        }
+                        .services_banner_item_1 {
+                            background: #6df6eb;
+                        }
+                        .services_banner_item_2 {
+                            background: url(./image/our_services/banner2.png) no-repeat center #efefef;
+
+                            @media screen and (max-width: 1170px) {
+                                grid-row: 2;
+                                grid-column: 1/4 ;
+                            }
+                        
+                                .item-text {
+                                    padding: 15.3% 7.5% 3% 6.1%;
+                                }
+                        }
+                        .services_banner_item_3 {
+                            background: url(./image/our_services/banner3.png) no-repeat center #ebebe8 ;
+                            
+                            @media screen and (max-width: 1170px) {
+                                grid-row: 3;
+                                grid-column: 1/4 ;
+                            }
+                            
+                            .item-text {
+                                padding: 13.1% 14.9% 1.8% 6.1%;
+                            }
+                        }
+                        .services_banner_item_4 {
+                            background: url(./image/our_services/banner4.png) no-repeat right #f1f1f1;
+
+                            @media screen and (max-width: 1170px) {
+                                grid-row: 4;
+                                grid-column: 1/4 ;
+                            }
+
+                            .item-text {
+                                padding: 13.1% 4.8% 10.5% 6.1%;
+                            }
+                        }
+                        .services_banner_item_5 {
+                            background: url(./image/our_services/banner5.png) no-repeat center #d2cec6;
+                            
+                            @media screen and (max-width: 1170px) {
+                                grid-row: 5;
+                                grid-column: 1/4 ;
+                            }
+                            
+                            .item-text {
+                                padding: 10.9% 10.9% 9% 6.1%;
+                            }
+                        }
+                        .services_banner_item_6 {
+                            grid-column: 2/4;
+                            background: url(./image/our_services/banner6.png) no-repeat center #eae9ee;
+
+                            @media screen and (max-width: 1170px) {
+                                grid-row: 6;
+                                grid-column: 1/4 ;
+                            }
+                            
+                            .item-text {
+                                padding: 10.9% 17.1% 0 6.1%;
+                            }
+                        }
+
+            }
+
+            .team {
+                
+                .text {
+                    @media screen and (max-width: 1170px) {
+                        padding-top: calc(95 / 720 * 100%);
+                    }
+                    @media screen and (max-width: 720px) {
+                        padding-top: calc(95 / 375 * 100%);
+                    }
+                    @media screen and (max-width: 375px) {   
+                        padding-top: calc(95 / 180 * 100%);
+                    }
+                }
+
+                .team_banner {
+                    .item_2{
+                        position: relative;
+                    }
+                    .item_3 {
+                        position: relative;
+                    }
+                    grid-template-columns: repeat(3, 32.45%);
+
+                        img {
+                            max-width: 100%;
+                        }               
+
+                            @media screen and (max-width: 375px) {
+                                grid-template-columns: repeat(2, 50%);
+                            }
+
+                }
+            }
+                          
+}
